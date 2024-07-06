@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 public class SMSController {
 
     @Autowired
-    SmsService service;
+    Service service;
 
     @Autowired
     private SimpMessagingTemplate webSocket;
