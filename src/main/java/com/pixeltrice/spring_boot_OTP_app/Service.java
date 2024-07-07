@@ -1,22 +1,15 @@
 package com.pixeltrice.spring_boot_OTP_app;
 //
+//package com.pixeltrice.spring_boot_OTP_app;
+//
 //import com.twilio.Twilio;
 //import com.twilio.rest.api.v2010.account.Message;
 //import com.twilio.type.PhoneNumber;
 //import org.springframework.stereotype.Component;
 //import org.springframework.util.MultiValueMap;
-//
-//
-//import org.springframework.beans.factory.annotation.Value;
-//import org.springframework.stereotype.Component;
-//import org.springframework.util.MultiValueMap;
-//import com.twilio.Twilio;
-//import com.twilio.rest.api.v2010.account.Message;
-//import com.twilio.type.PhoneNumber;
-//
 //
 //@Component
-public class SmsService {
+public class Service {
 //
 //    private final String ACCOUNT_SID ="ACf245c70f17c0c6ce60175df06b476d63";
 //
