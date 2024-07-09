@@ -7,13 +7,13 @@ import org.springframework.stereotype.Component;
 import org.springframework.util.MultiValueMap;
 
 @Component
-public class Service {
+public class SmsService {
 
-    private final String ACCOUNT_SID = System.getenv("ACf245c70f17c0c6ce60175df06b476d63");
+    private final String ACCOUNT_SID ="enter your SID Number from Twilio";
 
-    private final String AUTH_TOKEN =  System.getenv("656b7c43a13c68882c4868531b515bf2");
+    private final String AUTH_TOKEN = "enter your Auth token from Twilio Account";
 
-    private final String FROM_NUMBER = System.getenv("+12567871552");
+    private final String FROM_NUMBER = "enter the phone number generated from Twilio";
 
     public void send(SmsPojo sms) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
